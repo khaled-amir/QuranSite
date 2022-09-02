@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*::-moz-selection { /* Code for Firefox */
+    color: black;
+    background: #ba1e0d;
+  }
+  
+*::selection {
+    color: black;
+    background: #ba1e0d;
+  }
+body {
+    font-family: 'Tajawal', sans-serif;
+    direction: rtl;
+}
+a {
+    text-decoration: none;
+}
+main {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 30%;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    color: #ba1e0d;
+}
+.intro {
+    position: relative;
+    width: 100%;
+    height: 869px;
+    background-image: url('images/intro.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.intro .intro-content {
+    position: absolute;
+    top: 50%;
+    right: 60%;
+}
+.intro .intro-content h1 {
+    color: white;
+    margin-bottom: 30px;
+    font-family: 'Cairo', sans-serif;
+}
+.intro .intro-content button a {
+    text-decoration: none;
+    color: black;
+}
+.readers {
+    text-align: center;
+    padding: 20px;
+}
+.readers h1 {
+    margin-bottom: 20px;
+}
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-bottom: 50px;
+}
+.cards div h5 {
+    font-family: 'Cairo', sans-serif;
+    margin-bottom: 30px;
+}
+.about h1{
+    text-align: center;
+}
+.support {
+    text-align: center;
+}
+.support h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.support {
+    margin-bottom: 60px;
+}
+footer {
+    background-color: #333;
+    height: 100px;
+    text-align: center;
+    color: white;
+    padding: 20px 30px;
+}
